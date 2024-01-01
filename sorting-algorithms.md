@@ -45,6 +45,8 @@ There are four considerations to be made when evaluating this algorithm.
 
 When evaluating time complexity, a good rule of thumb is to consider what will happen if the list is doubled. Naturally, the inner and outer loops will have to increase by no iterations to match the additional elements in the list. Therefore, it can be concluded that the time complexity increases with the size. 
 
+<hr>
+
 ## Quicksort
 Quicksort is a sorting approach that uses a divide-and-conquer methodology. Given an array of items, a place is determined on the array on which to split the array and this is called the pivot point. All values greater than this point go to the right and all values less than this point go to the left. In this step, you have two arrays. The same process is applied to these arrays until there are no elements left to sort. 
 
@@ -109,6 +111,8 @@ Things to consider when evaluating this algorithm:
 3. Best case scenario: The middle value is always selected, and the iteration space is halved at every iteration, O(n*logn).
 
 4. The iterative nature of the algorithm will impact the space complexity because the function call and variables are retained on the stack while the calculations are performed. However, the decision to use an in-place swap means no new array needs to be created, O(log n).
+
+<hr>
 
 ## Conclusion 
 Two different sorting approaches have been broken down and analyzed through the lens of Big-O space and complexity. It has been shown that quicksort is more complex in implementation but returns overall quicker solutions. Selection sort is more simplistic and less code-heavy and requires less space, but will not generate results as effectively. 
