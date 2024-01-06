@@ -9,7 +9,7 @@ When evaluating coding solutions, Big-O notation is used. So, Big-O notation is 
 - O(n)
 - O(log n)
 - O(n^2)
-<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IGySTDFdRFCkwd9ZdoQTnw_382da9f238024333aca779375c0e5ce1_Picture-1-1-.png?expiry=1703548800000&hmac=pCT6OvT8i34aOlDZtSMQ8Jw0e-8JSr_ToinPOxwpl4M"/>
+<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IGySTDFdRFCkwd9ZdoQTnw_382da9f238024333aca779375c0e5ce1_Picture-1-1-.png?expiry=1704672000000&hmac=9qZiEmmQZEQyd0eNETP3A494hA-yBEhn9noLEUmdrgw"/>
 
 ## Worst case, best case and average case 
 Of course, it is not always possible to tell how long an approach will take. When looking at the initial loop example, there was a search performed for an element that was absent. You can say that to search a loop takes O(n) times but this might not always be the case. 
