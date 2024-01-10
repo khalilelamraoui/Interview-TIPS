@@ -23,3 +23,5 @@ By the end of this module, you will be able to:
 - Review data structures in the context of coding interviews
 
 - Recognize data structures that are commonly found in coding interviews
+
+Take care
